@@ -1,0 +1,9 @@
+.nav{
+    margin: 30px;
+    border-bottom: 1px solid black;
+}
+
+.nav__link{
+    padding: 15px;
+    
+}
