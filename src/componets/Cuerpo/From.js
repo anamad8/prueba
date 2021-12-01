@@ -1,6 +1,7 @@
 import React from 'react'
 import s from './From.module.css'
 
+
 export default function From() {
     return (
         <div className={s.from}>

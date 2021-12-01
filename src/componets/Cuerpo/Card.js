@@ -4,6 +4,7 @@ import {Container, Col , Row} from'react-bootstrap';
 import From from './From'
 import Card2 from './Card2';
 import Card3 from './Card3';
+import Card4 from './Card4';
 
 
 export default function Card() {
@@ -17,11 +18,12 @@ export default function Card() {
                 <Col><p>Estrategia de mercadeo digital y publicidad</p></Col>
                 <Col><p>Plan de ventas, seguimiento y cierre</p></Col> 
             </Row>
-            <Row className={s.contenedor__from}>
+            <Row >
             <From/>
             </Row>
             <Card2/>
             <Card3/>
+            <Card4/>
             
         </Container>
     )
